@@ -22,7 +22,6 @@
 //  THE SOFTWARE.
 
 import Foundation
-import Alamofire
 
 protocol WorkflowDelegate: AnyObject {
     func workflow(didFinish workflow: Workflow)
